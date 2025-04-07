@@ -1,9 +1,17 @@
 # Guess the Output............
 
+
 for guest in range(1, 11):
-    if guest == 4:
-        break
     print("Guest", guest)
+
+
+# ...........................................................
+
+
+# for guest in range(1, 11):
+#     if guest == 4:
+#         break
+#     print("Guest", guest)
 
 
 # ...........................................................
