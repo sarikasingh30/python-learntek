@@ -1,8 +1,8 @@
 # Guess the Output............
 
 
-for guest in range(1, 11):
-    print("Guest", guest)
+# for guest in range(1, 11):
+#     print("Guest", guest)
 
 
 # ...........................................................
@@ -10,16 +10,29 @@ for guest in range(1, 11):
 
 # for guest in range(1, 11):
 #     if guest == 4:
+#         print("Guest", guest)
 #         break
-#     print("Guest", guest)
+
+# g=1 => Guest 1
+# g=2 => Guest 2
+# g=3 => Guest 3
+# g=4 =>
 
 
 # ...........................................................
 
-# for guest in range(1, 11):
-#     print("Guest", guest)
-#     if guest == 3:
-#         continue
+for guest in range(1, 11):
+    if guest == 3:
+        continue
+    print("Guest", guest)
+
+
+# g=1 => Guest 1
+# g=2 => Guest 2
+# g=3 =>
+# g=4 => Guest 4
+
+
 # ..................................................................
 
 # for guest in range(1, 11):
